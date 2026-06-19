@@ -2,3 +2,32 @@
 .settings
 salesforce.schema
 Referenced Packages
+# Salesforce DX local configuration and state
+.sf/
+.sfdx/
+
+# Node modules (if using Prettier, ESLint, or Husky)
+node_modules/
+
+# Local test coverage and log outputs
+artifacts/
+**/debug/
+.ruleset-analysis/
+ApexDocumentation/
+coverage/
+
+# VS Code specific files
+.vscode/
+*.code-workspace
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Private server keys or deployment environment variables
+*.key
+*.pem
+.env
+
+# Salesforce Code Analyzer reports
+CodeAnalyzerOutput.txt
